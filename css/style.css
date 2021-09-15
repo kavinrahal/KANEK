@@ -2405,7 +2405,7 @@
 }
  .contact-form-right h2{
      font-size: 24px;
-     font-weight: 700;
+     font-weight: 800;
 }
  .contact-form-right p{
      margin-bottom: 15px;
@@ -2424,6 +2424,18 @@
  .contact-form-right .form-group .form-control:focus{
      border: 1px solid #b0b435;
      box-shadow: none;
+}
+ .faq-right{
+     padding: 20px;
+ } 
+ .faq-right h2{
+    font-size: 24px;
+    font-weight: 800;
+} 
+.faq-right h3{
+   font-size: 24px;
+   font-weight: 500;
+
 }
  .submit-button button{
      padding: 10px 20px;
