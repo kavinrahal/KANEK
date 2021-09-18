@@ -2381,11 +2381,10 @@
 }
  .contact-info-left{
      padding: 20px;
-     background: url(../images/contact-bg.jpg) no-repeat center;
-	 background-size: cover;
+     
 }
  .contact-info-left h2{
-     font-size: 22px;
+     font-size: 24px;
      font-weight: 700;
 }
  .contact-info-left p{
