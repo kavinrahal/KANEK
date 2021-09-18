@@ -2371,6 +2371,13 @@
 }
  .contact-box-main{
      padding: 70px 0px;
+     background: #e4e2c6;
+
+}
+.faq-main{
+     padding: 70px 0px;
+     background: #fdfce5;
+
 }
  .contact-info-left{
      padding: 20px;
