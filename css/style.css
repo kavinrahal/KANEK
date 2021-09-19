@@ -1757,6 +1757,7 @@
 }
  .shop-box-inner{
      padding: 70px 0px;
+     background: #fdfce5;
 }
  .search-product {
      position: relative;
@@ -1800,6 +1801,7 @@
 }
  .filter-sidebar-left{
      margin-bottom: 20px;
+     background: #fdfce5;
 }
  .title-left{
      font-size: 16px;
@@ -1813,6 +1815,7 @@
      border: none;
      padding: 5px 20px;
      font-size: 14px;
+     background: #fdfce5;
 }
  .text-muted {
      padding: 10px 0px;
