@@ -315,6 +315,10 @@
 
  .main-header{
 }
+
+.mainLogo{
+    height: 120px;
+}
  .search a{
      color: #9a7b4f;
 }
@@ -1112,6 +1116,7 @@
 }
  .blog-content{
      position: relative;
+     height: 380px;
 }
  .title-blog{
      padding: 40px 30px 40px 30px;
