@@ -36,34 +36,105 @@
 </head>
 
 <body>
+    <?php include('login.php'); ?>
+    <!-- Start Main Top -->
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="custom-select-box">
+                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
+							<option>¥ JPY</option>
+							<option>$ USD</option>
+							<option>€ EUR</option>
+						</select>
+                    </div>
+                    <div class="right-phone-box">
+                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
+                    </div>
+                    <div class="our-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user s_color"></i> My Account</a></li>
+                            <li><a href="#"><i class="fas fa-location-arrow"></i> Our location</a></li>
+                            <li><a href="#"><i class="fas fa-headset"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="login-box">
+						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+							<option>Register Here</option>
+							<option>Sign In</option>
+						</select>
+					</div>
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT80
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Top -->
+
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-default bootsnav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
             <div class="container">
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo mainLogo" alt=""></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="nav-item"><a href="shop-detail.html" class="nav-link">SHOP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.html">Cafes</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-                        <div class="login-box">
-                            <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
-                                <option>Register Here</option>
-                                <option>Sign In</option>
-                            </select>
-                        </div>
+					<ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="dropdown active">
+							<a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+							<ul class="dropdown-menu">
+								<li><a href="shop.html">Sidebar Shop</a></li>
+								<li><a href="shop-detail.html">Shop Detail</a></li>
+								<li><a href="cart.html">Cart</a></li>
+								<li><a href="checkout.html">Checkout</a></li>
+								<li><a href="my-account.html">My Account</a></li>
+								<li><a href="wishlist.html">Wishlist</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -72,13 +143,11 @@
                 <div class="attr-nav">
                     <ul>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu">
-							<a href="#">
-								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
-								<p>My Cart</p>
-							</a>
-						</li>
+                        <li class="side-menu"><a href="#">
+						<i class="fa fa-shopping-bag"></i>
+                            <span class="badge">3</span>
+							<p>My Cart</p>
+					</a></li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
@@ -133,10 +202,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>ABOUT US</h2>
+                    <h2>My Account</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">ABOUT US</li>
+                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item active">My Account</li>
                     </ul>
                 </div>
             </div>
@@ -144,153 +213,183 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start About Page  -->
-    <div class="about-box-main">
+    <!-- Start My Account  -->
+    <div class="my-account-box-main">
         <div class="container">
-            <div class="row">
-				<div class="col-lg-6">
-                    <div class="banner-frame"> <img class="img-fluid" src="images/about-img.jpg" alt="" />
+            <div class="my-account-page">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <a href="#"> <i class="fa fa-gift"></i> </a>
+                                </div>
+                                <div class="service-desc">
+                                    <h4>Your Orders</h4>
+                                    <p>Track, return, or buy things again</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <a href="#"><i class="fa fa-lock"></i> </a>
+                                </div>
+                                <div class="service-desc">
+                                    <h4>Login &amp; security</h4>
+                                    <p>Edit login, name, and mobile number</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <a href="#"> <i class="fa fa-location-arrow"></i> </a>
+                                </div>
+                                <div class="service-desc">
+                                    <h4>Your Addresses</h4>
+                                    <p>Edit addresses for orders and gifts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <a href="#"> <i class="fa fa-credit-card"></i> </a>
+                                </div>
+                                <div class="service-desc">
+                                    <h4>Payment options</h4>
+                                    <p>Edit or add payment methods</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <a href="#"> <i class="fab fa-paypal"></i> </a>
+                                </div>
+                                <div class="service-desc">
+                                    <h4>PayPal</h4>
+                                    <p>View benefits and payment settings</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <a href="#"> <i class="fab fa-amazon"></i> </a>
+                                </div>
+                                <div class="service-desc">
+                                    <h4>Amazon Pay balance</h4>
+                                    <p>Add money to your balance</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <h2 class="noo-sh-title-top">We are <span>Cafe Crate</span></h2>
-                    <p>We at Cafe Crate saw the impact that the pandemic had on smaller businesses, and we have decided to try and help mitigate some of the struggles that they are facing. We are a new business trying to give smaller, less known cafes the chance to compete in a digital market by offering their products to you. We offer products through a monthly subscription service to ensure that everyone gets to engage in different experiences, either ones that you've already known, or maybe find some new ones you enjoy.</p>
-                    <p>Our subscription will offer you 15 various goods from 3 cafes, and if you find something you really like you can buy them directly from our store!</p>
-					<a class="btn hvr-hover" href="#">Read More</a>
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>How We Help</h3>
-                        <p>We help by allowing cafes the entrance to an online market, all whilst buying their products and helping them reach a wider range of buyers.</p>
+                <div class="bottom-box">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="account-box">
+                                <div class="service-box">
+                                    <div class="service-desc">
+                                        <h4>Gold &amp; Diamond Jewellery</h4>
+                                        <ul>
+                                            <li> <a href="#">Apps and more</a> </li>
+                                            <li> <a href="#">Content and devices</a> </li>
+                                            <li> <a href="#">Music settings</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="account-box">
+                                <div class="service-box">
+                                    <div class="service-desc">
+                                        <h4>Handloom &amp; Handicraft Store</h4>
+                                        <ul>
+                                            <li> <a href="#">Advertising preferences </a> </li>
+                                            <li> <a href="#">Communication preferences</a> </li>
+                                            <li> <a href="#">SMS alert preferences</a> </li>
+                                            <li> <a href="#">Message center</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="account-box">
+                                <div class="service-box">
+                                    <div class="service-desc">
+                                        <h4>The Designer Boutique</h4>
+                                        <ul>
+                                            <li> <a href="#">Amazon Pay</a> </li>
+                                            <li> <a href="#">Bank accounts for refunds</a> </li>
+                                            <li> <a href="#">Coupons</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="account-box">
+                                <div class="service-box">
+                                    <div class="service-desc">
+                                        <h4>Gift Boxes, Gift Tags, Greeting Cards</h4>
+                                        <ul>
+                                            <li> <a href="#">Leave delivery feedback</a> </li>
+                                            <li> <a href="#">Lists</a> </li>
+                                            <li> <a href="#">Photo ID proofs</a> </li>
+                                            <li> <a href="#">Profile</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="account-box">
+                                <div class="service-box">
+                                    <div class="service-desc">
+                                        <h4>Other accounts</h4>
+                                        <ul>
+                                            <li> <a href="#">Amazon Business registration</a> </li>
+                                            <li> <a href="#">Seller account</a> </li>
+                                            <li> <a href="#">Amazon Web Services</a> </li>
+                                            <li> <a href="#">Login with Amazon</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="account-box">
+                                <div class="service-box">
+                                    <div class="service-desc">
+                                        <h4>Shopping programs and rentals</h4>
+                                        <ul>
+                                            <li> <a href="#">Subscribe &amp; Save</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>What we provide</h3>
-                        <p>We provide you with a monthly guarantee of tasty sweets, delivered directly to your door!</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>Why choose us?</h3>
-                        <p>We will provide a unique service at a cheap cost, helping to bridge the gap between cafes that can and can't sell online.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row my-4">
-                <div class="col-12">
-                    <h2 class="noo-sh-title">Meet Our Team</h2>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
-                            <div class="team-content">
-                                <h3 class="title">Kyle</h3> <span class="post">Analyst</span> </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
-                                </li>
-                            </ul>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
-                        <div class="team-description">
-                            <p>Kyle uses database systems, including excel, SQL and python to analyse the business and find new areas of expansion, as well as helping to manage the day to day activities.</p>
-                        </div>
-                        <hr class="my-0"> </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-2.jpg" alt="" />
-                            <div class="team-content">
-                                <h3 class="title">Anmol</h3> <span class="post">Web Developer</span> </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
-                                </li>
-                            </ul>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
-                        <div class="team-description">
-                            <p>Anmol uses his experience in web devolpment to help maintain and upgrade the site to function optimally.</p>
-                        </div>
-                        <hr class="my-0"> </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-3.jpg" alt="" />
-                            <div class="team-content">
-                                <h3 class="title">Eddie</h3> <span class="post">Management</span> </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
-                                </li>
-                            </ul>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
-                        <div class="team-description">
-                            <p>Eddie uses his management skills to keep the team on track and functioning whilst being caring towards the team.</p>
-                        </div>
-                        <hr class="my-0"> </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
-                            <div class="team-content">
-                                <h3 class="title">Kavin</h3> <span class="post">Web Developer</span> </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
-                                </li>
-                            </ul>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
-                        <div class="team-description">
-                            <p>Kavin helps to keep the website functioning, as well as update it wiht new features to create optimal experiences for our customers.</p>
-                        </div>
-                        <hr class="my-0"> </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End About Page -->
+    <!-- End My Account -->
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
@@ -427,7 +526,7 @@
                         <div class="footer-widget">
                             <h4>About Cafe Crate</h4>
                             <p>Cafe Crate is a business designed to help struggling cafes during these uncertain times, whether its through advertising or purchasing their products, we aim to assist in whatever way we can.</p> 
-							<p>Cafe Crate also aims to provide you a positive experience, delivering to you delicious treats monthly, and helping our customers to find a little more joy.</p> 							
+							<p>Cafe Crate also aims to provide you a positive experience, delivering to you delicious treats monthly, and helping our customers to find a little more joy.</p> 									
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">

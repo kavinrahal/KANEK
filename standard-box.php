@@ -36,6 +36,7 @@
 </head>
 
 <body>
+    <?php include('login.php'); ?>
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -55,8 +56,8 @@
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="nav-item"><a href="shop-detail.html" class="nav-link">SHOP</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="gallery.html">Cafes</a></li>
+                        <li class="nav-item active"><a href="shop-detail.html" class="nav-link">SHOP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Cafes</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                         <div class="login-box">
                             <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
@@ -133,10 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Services</h2>
+                    <h2>Standard Box</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Services</li>
+                        <li class="breadcrumb-item"><a href="choose-box.html">Choose Box</a></li>
+                        <li class="breadcrumb-item active">Standard Box </li>
                     </ul>
                 </div>
             </div>
@@ -144,218 +145,88 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start Gallery  -->
-    <div class="products-box">
+    <!-- Start Shop Detail  -->
+    <div class="shop-detail-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Our Gallery</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                <div class="col-xl-5 col-lg-5 col-md-6">
+                    <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"> <img class="d-block w-100 rounded" src="images/standard.png" alt="First slide"> </div>
+                        </div>
+						
+
+					</a>
+
+					</a>
+
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6">
+                    <div class="single-product-details">
+                        <h2>Standard Box</h2>
+						<h4>Short Description:</h4>
+						<p>The standard box has everything you could ever want. Giving cafes complete freedom to package their best treats for your eating pleasure  </p>
+						<p>Each box contains: 15 different goods from 3 cafes, a variety of snacks, no required dietry restrictions, a brochure telling you about each cafe</p>
+						<ul>
+							<li>
+								<div class="form-group quantity-box">
+									<label class="control-label">Choose subscription type</label>
+									<div class="row">
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/1month.png" width="209" height="57">
+											<a/>
+											$540 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/3month.png" width="209" height="57">
+											<a/>
+											$516 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/6month.png" width="209" height="57">
+											<a/>
+											$492 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/12month.png" width="209" height="57">
+											<a/>
+											$468 yearly
+										</div>
+
+									</div>
+		
+								</div>
+								
+							</li>
+						</ul>
+
+						</div>
+
+						<div class="add-to-btn">
+							<div class="add-comp">
+								<p>*Prices are per month, subscriptions are automatically renewed after their duration, you may cancel at any time.</p>
+							</div>
+							<div class="share-bar">
+
+							</div>
+						</div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="special-menu text-center">
-                        <div class="button-group filter-button-group">
-                            <button class="active" data-filter="*">All</button>
-                            <button data-filter=".bulbs">Bulbs</button>
-                            <button data-filter=".fruits">Fruits</button>
-							<button data-filter=".podded-vegetables">Podded vegetables</button>
-							<button data-filter=".root-and-tuberous">Root and tuberous</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			
 
-            <div class="row special-list">
-                <div class="col-lg-3 col-md-6 special-grid bulbs">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="sale">Sale</p>
-                            </div>
-                            <img src="images/gallery-img-01.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-md-6 special-grid fruits">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-02.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid bulbs">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-03.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid fruits">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-04.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>                                
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-				<div class="col-lg-3 col-md-6 special-grid bulbs">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-05.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid fruits">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-06.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-07.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-08.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-				
-				<div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-09.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-10.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                           
-                            <img src="images/gallery-img-11.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-12.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <!-- End Gallery  -->
+    <!-- End Cart -->
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">

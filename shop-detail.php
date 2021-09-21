@@ -36,8 +36,7 @@
 </head>
 
 <body>
-   
-
+    <?php include('login.php'); ?>
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -135,10 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Choose Box</h2>
+                    <h2>Subscription</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="shop-detail.html">Shop</a></li>
-                        <li class="breadcrumb-item active">Choose Box </li>
+                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item active">Shop Detail </li>
                     </ul>
                 </div>
             </div>
@@ -150,14 +149,22 @@
     <div class="shop-detail-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Get Started!</h1>
+                        <p>Click on the left if you want to make a one time purchase!</p>
+                        <p>Click on the right if you want to have a box of sweet treats shipped right to you doorstep every month!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-6">
                     <div class="single-product-details " align="center">
-
-						<a href = "standard-box.html">
-						<img border="0" href = "#" alt="one-time" src="images/standard.png" width="300" height="300"  class="img-thumbnail">
+						<a href = "shop.html">
+						<img border="0" href = "choose-box.html" alt="one-time" src="images/onetime.png" width="300" height="300"  class="img-thumbnail">
 						<a/>
                         <p></p>
-						<h2>Standard Box</h2>
+						<h2>One-time purchases</h2>
 						<div class="price-box-bar">
 							<div class="cart-and-bay-btn">
 							</div>
@@ -165,28 +172,13 @@
 
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-xl-7 col-lg-7 col-md-6">
                     <div class="single-product-details" align="center">
-						<a href = "vegan-box.html">
-						<img border="0" alt="subscribe" src="images/vegan.png" width="300" height="300"  class="img-thumbnail">
+						<a href = "choose-box.html">
+						<img border="0" alt="subscribe" src="images/subscribe.png" width="300" height="300"  class="img-thumbnail">
 						<a/>
 						<p></p>
-						<h2>Vegan Box</h2>
-						<div class="price-box-bar">
-							<div class="cart-and-bay-btn">
-							</div>
-						</div>
-
-                    </div>
-                </div>
-				<div class="col-sm">
-                    <div class="single-product-details " align="center">
-
-						<a href = "gluten-box.html">
-						<img border="0" href = "#" alt="one-time" src="images/glutenfree.png" width="300" height="300"  class="img-thumbnail">
-						<a/>
-                        <p></p>
-						<h2>Gluten-free Box</h2>
+						<h2>Subscription Box</h2>
 						<div class="price-box-bar">
 							<div class="cart-and-bay-btn">
 							</div>
@@ -202,7 +194,7 @@
                 <div class="col-lg-12">
                     <div class="title-all text-center">
                         <h1>Featured Products</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                        <p>Check out our picks for this week's featured treats!.</p>
                     </div>
                     <div class="featured-products-box owl-carousel owl-theme">
                         <div class="item">

@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    
+    <?php include('login.php'); ?>
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -55,8 +55,8 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="nav-item active"><a href="shop-detail.html" class="nav-link">SHOP</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a href="shop-detail.html" class="nav-link">SHOP</a></li>
                         <li class="nav-item"><a class="nav-link" href="gallery.html">Cafes</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                         <div class="login-box">
@@ -116,7 +116,7 @@
         <!-- End Navigation -->
     </header>
     <!-- End Main Top -->
-    
+
     <!-- Start Top Search -->
     <div class="top-search">
         <div class="container">
@@ -134,10 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Vegan Box</h2>
+                    <h2>ABOUT US</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="choose-box.html">Choose Box</a></li>
-                        <li class="breadcrumb-item active">Vegan Box </li>
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">ABOUT US</li>
                     </ul>
                 </div>
             </div>
@@ -145,88 +145,153 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start Shop Detail  -->
-    <div class="shop-detail-box-main">
+    <!-- Start About Page  -->
+    <div class="about-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-6">
-                    <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active"> <img class="d-block w-100 rounded" src="images/vegan.png" alt="First slide"> </div>
-                        </div>
-						
-
-					</a>
-
-					</a>
-
+				<div class="col-lg-6">
+                    <div class="banner-frame"> <img class="img-fluid" src="images/about-img.jpg" alt="" />
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-6">
-                    <div class="single-product-details">
-                        <h2>Vegan Box</h2>
-						<h4>Short Description:</h4>
-						<p>The vegan box contains only vegan friendly treats. Giving cafes a way to show off their skills, vegan free!  </p>
-						<p>Each box contains: 15 different goods from 3 cafes, a variety of vegan only  snacks, a brochure telling you about each cafe</p>
-						<ul>
-							<li>
-								<div class="form-group quantity-box">
-									<label class="control-label">Choose subscription type</label>
-									<div class="row">
-										<div class="col-sm">
-											<a href = "#">
-											<img border="0" alt="subscribe" src="images/1month.png" width="209" height="57">
-											<a/>
-											$540 yearly
-											<p></p>
-										</div>
-										<div class="col-sm">
-											<a href = "#">
-											<img border="0" alt="subscribe" src="images/3month.png" width="209" height="57">
-											<a/>
-											$516 yearly
-											<p></p>
-										</div>
-										<div class="col-sm">
-											<a href = "#">
-											<img border="0" alt="subscribe" src="images/6month.png" width="209" height="57">
-											<a/>
-											$492 yearly
-											<p></p>
-										</div>
-										<div class="col-sm">
-											<a href = "#">
-											<img border="0" alt="subscribe" src="images/12month.png" width="209" height="57">
-											<a/>
-											$468 yearly
-										</div>
-
-									</div>
-		
-								</div>
-								
-							</li>
-						</ul>
-
-						</div>
-
-						<div class="add-to-btn">
-							<div class="add-comp">
-								<p>*Prices are per month, subscriptions are automatically renewed after their duration, you may cancel at any time.</p>
-							</div>
-							<div class="share-bar">
-
-							</div>
-						</div>
+                <div class="col-lg-6">
+                    <h2 class="noo-sh-title-top">We are <span>Cafe Crate</span></h2>
+                    <p>We at Cafe Crate saw the impact that the pandemic had on smaller businesses, and we have decided to try and help mitigate some of the struggles that they are facing. We are a new business trying to give smaller, less known cafes the chance to compete in a digital market by offering their products to you. We offer products through a monthly subscription service to ensure that everyone gets to engage in different experiences, either ones that you've already known, or maybe find some new ones you enjoy.</p>
+                    <p>Our subscription will offer you 15 various goods from 3 cafes, and if you find something you really like you can buy them directly from our store!</p>
+					<a class="btn hvr-hover" href="#">Read More</a>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-block-inner">
+                        <h3>How We Help</h3>
+                        <p>We help by allowing cafes the entrance to an online market, all whilst buying their products and helping them reach a wider range of buyers.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-block-inner">
+                        <h3>What we provide</h3>
+                        <p>We provide you with a monthly guarantee of tasty sweets, delivered directly to your door!</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-block-inner">
+                        <h3>Why choose us?</h3>
+                        <p>We will provide a unique service at a cheap cost, helping to bridge the gap between cafes that can and can't sell online.</p>
                     </div>
                 </div>
             </div>
-			
-
-
+            <div class="row my-4">
+                <div class="col-12">
+                    <h2 class="noo-sh-title">Meet Our Team</h2>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="hover-team">
+                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                            <div class="team-content">
+                                <h3 class="title">Kyle</h3> <span class="post">Analyst</span> </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="fab fa-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-google-plus"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-youtube"></a>
+                                </li>
+                            </ul>
+                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                        </div>
+                        <div class="team-description">
+                            <p>Kyle uses database systems, including excel, SQL and python to analyse the business and find new areas of expansion, as well as helping to manage the day to day activities.</p>
+                        </div>
+                        <hr class="my-0"> </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="hover-team">
+                        <div class="our-team"> <img src="images/img-2.jpg" alt="" />
+                            <div class="team-content">
+                                <h3 class="title">Anmol</h3> <span class="post">Web Developer</span> </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="fab fa-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-google-plus"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-youtube"></a>
+                                </li>
+                            </ul>
+                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                        </div>
+                        <div class="team-description">
+                            <p>Anmol uses his experience in web devolpment to help maintain and upgrade the site to function optimally.</p>
+                        </div>
+                        <hr class="my-0"> </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="hover-team">
+                        <div class="our-team"> <img src="images/img-3.jpg" alt="" />
+                            <div class="team-content">
+                                <h3 class="title">Eddie</h3> <span class="post">Management</span> </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="fab fa-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-google-plus"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-youtube"></a>
+                                </li>
+                            </ul>
+                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                        </div>
+                        <div class="team-description">
+                            <p>Eddie uses his management skills to keep the team on track and functioning whilst being caring towards the team.</p>
+                        </div>
+                        <hr class="my-0"> </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="hover-team">
+                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                            <div class="team-content">
+                                <h3 class="title">Kavin</h3> <span class="post">Web Developer</span> </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="fab fa-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-google-plus"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fab fa-youtube"></a>
+                                </li>
+                            </ul>
+                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                        </div>
+                        <div class="team-description">
+                            <p>Kavin helps to keep the website functioning, as well as update it wiht new features to create optimal experiences for our customers.</p>
+                        </div>
+                        <hr class="my-0"> </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- End Cart -->
+    <!-- End About Page -->
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
@@ -363,7 +428,7 @@
                         <div class="footer-widget">
                             <h4>About Cafe Crate</h4>
                             <p>Cafe Crate is a business designed to help struggling cafes during these uncertain times, whether its through advertising or purchasing their products, we aim to assist in whatever way we can.</p> 
-							<p>Cafe Crate also aims to provide you a positive experience, delivering to you delicious treats monthly, and helping our customers to find a little more joy.</p> 		 							
+							<p>Cafe Crate also aims to provide you a positive experience, delivering to you delicious treats monthly, and helping our customers to find a little more joy.</p> 							
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">

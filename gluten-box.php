@@ -10,14 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site Metas -->
-    <title>Cafe Crate</title>
+    <title>ThewayShop - Ecommerce Bootstrap 4 HTML Template</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -36,7 +36,7 @@
 </head>
 
 <body>
-
+    <?php include('login.php'); ?>
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -134,10 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Subscription</h2>
+                    <h2>Gluten-free Box</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                        <li class="breadcrumb-item active">Shop Detail </li>
+                        <li class="breadcrumb-item"><a href="choose-box.html">Choose Box</a></li>
+                        <li class="breadcrumb-item active">Gluten-free Box </li>
                     </ul>
                 </div>
             </div>
@@ -149,210 +149,80 @@
     <div class="shop-detail-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Get Started!</h1>
-                        <p>Click on the left if you want to make a one time purchase!</p>
-                        <p>Click on the right if you want to have a box of sweet treats shipped right to you doorstep every month!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-6">
-                    <div class="single-product-details " align="center">
+                    <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"> <img class="d-block w-100 rounded" src="images/glutenfree.png" alt="First slide"> </div>
+                        </div>
+						
 
-						<a href = "shop.html">
-						<img border="0" href = "choose-box.html" alt="one-time" src="images/onetime.png" width="300" height="300"  class="img-thumbnail">
-						<a/>
-                        <p></p>
-						<h2>One-time purchases</h2>
-						<div class="price-box-bar">
-							<div class="cart-and-bay-btn">
-							</div>
-						</div>
+					</a>
+
+					</a>
 
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-6">
-                    <div class="single-product-details" align="center">
-						<a href = "choose-box.html">
-						<img border="0" alt="subscribe" src="images/subscribe.png" width="300" height="300"  class="img-thumbnail">
-						<a/>
-						<p></p>
-						<h2>Subscription Box</h2>
-						<div class="price-box-bar">
-							<div class="cart-and-bay-btn">
-							</div>
+                    <div class="single-product-details">
+                        <h2>Gluten-free Box</h2>
+						<h4>Short Description:</h4>
+						<p>The Gluten-free box makes sure that all the pastries and treats made are 100% gluten-free, accomodated by all our awesome cafes!  </p>
+						<p>Each box contains: 15 different goods from 3 cafes, a variety of gluten free snacks, a brochure telling you about each cafe</p>
+						<ul>
+							<li>
+								<div class="form-group quantity-box">
+									<label class="control-label">Choose subscription type</label>
+									<div class="row">
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/1month.png" width="209" height="57">
+											<a/>
+											$540 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/3month.png" width="209" height="57">
+											<a/>
+											$516 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/6month.png" width="209" height="57">
+											<a/>
+											$492 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/12month.png" width="209" height="57">
+											<a/>
+											$468 yearly
+										</div>
+
+									</div>
+		
+								</div>
+								
+							</li>
+						</ul>
+
 						</div>
 
+						<div class="add-to-btn">
+							<div class="add-comp">
+								<p>*Prices are per month, subscriptions are automatically renewed after their duration, you may cancel at any time.</p>
+							</div>
+							<div class="share-bar">
+
+							</div>
+						</div>
                     </div>
                 </div>
             </div>
 			
 
-
-            <div class="row my-5">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Featured Products</h1>
-                        <p>Check out our picks for this week's featured treats!.</p>
-                    </div>
-                    <div class="featured-products-box owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="products-single fix">
-                                <div class="box-img-hover">
-                                    <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
-                                    <div class="mask-icon">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>

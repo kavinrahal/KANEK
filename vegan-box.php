@@ -10,14 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site Metas -->
-    <title>ThewayShop - Ecommerce Bootstrap 4 HTML Template</title>
+    <title>Cafe Crate</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/logo.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -36,76 +36,11 @@
 </head>
 
 <body>
-    <!-- Start Main Top -->
-    <div class="main-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="custom-select-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-							<option>¥ JPY</option>
-							<option>$ USD</option>
-							<option>€ EUR</option>
-						</select>
-                    </div>
-                    <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
-                    </div>
-                    <div class="our-link">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-user s_color"></i> My Account</a></li>
-                            <li><a href="#"><i class="fas fa-location-arrow"></i> Our location</a></li>
-                            <li><a href="#"><i class="fas fa-headset"></i> Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="login-box">
-						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
-							<option>Register Here</option>
-							<option>Sign In</option>
-						</select>
-					</div>
-                    <div class="text-slid-box">
-                        <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT80
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now 
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Main Top -->
-
+    <?php include('login.php'); ?>
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+        <nav class="navbar navbar-expand-lg navbar-default bootsnav">
             <div class="container">
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
@@ -118,22 +53,18 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
-					<ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-						<li class="dropdown active">
-							<a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
-							<ul class="dropdown-menu">
-								<li><a href="shop.html">Sidebar Shop</a></li>
-								<li><a href="shop-detail.html">Shop Detail</a></li>
-								<li><a href="cart.html">Cart</a></li>
-								<li><a href="checkout.html">Checkout</a></li>
-								<li><a href="my-account.html">My Account</a></li>
-								<li><a href="wishlist.html">Wishlist</a></li>
-							</ul>
-						</li>
-						<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-						<li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item active"><a href="shop-detail.html" class="nav-link">SHOP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Cafes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <div class="login-box">
+                            <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+                                <option>Register Here</option>
+                                <option>Sign In</option>
+                            </select>
+                        </div>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -142,11 +73,13 @@
                 <div class="attr-nav">
                     <ul>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu"><a href="#">
-						<i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
-							<p>My Cart</p>
-					</a></li>
+                        <li class="side-menu">
+							<a href="#">
+								<i class="fa fa-shopping-bag"></i>
+								<span class="badge">3</span>
+								<p>My Cart</p>
+							</a>
+						</li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
@@ -183,7 +116,7 @@
         <!-- End Navigation -->
     </header>
     <!-- End Main Top -->
-
+    
     <!-- Start Top Search -->
     <div class="top-search">
         <div class="container">
@@ -201,10 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Wishlist</h2>
+                    <h2>Vegan Box</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                        <li class="breadcrumb-item active">Wishlist</li>
+                        <li class="breadcrumb-item"><a href="choose-box.html">Choose Box</a></li>
+                        <li class="breadcrumb-item active">Vegan Box </li>
                     </ul>
                 </div>
             </div>
@@ -212,104 +145,88 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start Wishlist  -->
-    <div class="wishlist-box-main">
+    <!-- Start Shop Detail  -->
+    <div class="shop-detail-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="table-main table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Images</th>
-                                    <th>Product Name</th>
-                                    <th>Unit Price </th>
-                                    <th>Stock</th>
-                                    <th>Add Item</th>
-                                    <th>Remove</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="thumbnail-img">
-                                        <a href="#">
-									<img class="img-fluid" src="images/img-pro-01.jpg" alt="" />
-								</a>
-                                    </td>
-                                    <td class="name-pr">
-                                        <a href="#">
-									Lorem ipsum dolor sit amet
-								</a>
-                                    </td>
-                                    <td class="price-pr">
-                                        <p>$ 80.0</p>
-                                    </td>
-                                    <td class="quantity-box">In Stock</td>
-                                    <td class="add-pr">
-                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
-                                    </td>
-                                    <td class="remove-pr">
-                                        <a href="#">
-									<i class="fas fa-times"></i>
-								</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="thumbnail-img">
-                                        <a href="#">
-									<img class="img-fluid" src="images/img-pro-02.jpg" alt="" />
-								</a>
-                                    </td>
-                                    <td class="name-pr">
-                                        <a href="#">
-									Lorem ipsum dolor sit amet
-								</a>
-                                    </td>
-                                    <td class="price-pr">
-                                        <p>$ 60.0</p>
-                                    </td>
-                                    <td class="quantity-box">In Stock</td>
-                                    <td class="add-pr">
-                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
-                                    </td>
-                                    <td class="remove-pr">
-                                        <a href="#">
-									<i class="fas fa-times"></i>
-								</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="thumbnail-img">
-                                        <a href="#">
-									<img class="img-fluid" src="images/img-pro-03.jpg" alt="" />
-								</a>
-                                    </td>
-                                    <td class="name-pr">
-                                        <a href="#">
-									Lorem ipsum dolor sit amet
-								</a>
-                                    </td>
-                                    <td class="price-pr">
-                                        <p>$ 30.0</p>
-                                    </td>
-                                    <td class="quantity-box">In Stock</td>
-                                    <td class="add-pr">
-                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
-                                    </td>
-                                    <td class="remove-pr">
-                                        <a href="#">
-									<i class="fas fa-times"></i>
-								</a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="col-xl-5 col-lg-5 col-md-6">
+                    <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"> <img class="d-block w-100 rounded" src="images/vegan.png" alt="First slide"> </div>
+                        </div>
+						
+
+					</a>
+
+					</a>
+
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6">
+                    <div class="single-product-details">
+                        <h2>Vegan Box</h2>
+						<h4>Short Description:</h4>
+						<p>The vegan box contains only vegan friendly treats. Giving cafes a way to show off their skills, vegan free!  </p>
+						<p>Each box contains: 15 different goods from 3 cafes, a variety of vegan only  snacks, a brochure telling you about each cafe</p>
+						<ul>
+							<li>
+								<div class="form-group quantity-box">
+									<label class="control-label">Choose subscription type</label>
+									<div class="row">
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/1month.png" width="209" height="57">
+											<a/>
+											$540 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/3month.png" width="209" height="57">
+											<a/>
+											$516 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/6month.png" width="209" height="57">
+											<a/>
+											$492 yearly
+											<p></p>
+										</div>
+										<div class="col-sm">
+											<a href = "#">
+											<img border="0" alt="subscribe" src="images/12month.png" width="209" height="57">
+											<a/>
+											$468 yearly
+										</div>
+
+									</div>
+		
+								</div>
+								
+							</li>
+						</ul>
+
+						</div>
+
+						<div class="add-to-btn">
+							<div class="add-comp">
+								<p>*Prices are per month, subscriptions are automatically renewed after their duration, you may cancel at any time.</p>
+							</div>
+							<div class="share-bar">
+
+							</div>
+						</div>
                     </div>
                 </div>
             </div>
+			
+
+
         </div>
     </div>
-    <!-- End Wishlist -->
+    <!-- End Cart -->
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
@@ -444,7 +361,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
-                            <h4>About Crate</h4>
+                            <h4>About Cafe Crate</h4>
                             <p>Cafe Crate is a business designed to help struggling cafes during these uncertain times, whether its through advertising or purchasing their products, we aim to assist in whatever way we can.</p> 
 							<p>Cafe Crate also aims to provide you a positive experience, delivering to you delicious treats monthly, and helping our customers to find a little more joy.</p> 		 							
                         </div>
