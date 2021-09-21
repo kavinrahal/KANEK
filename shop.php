@@ -405,7 +405,7 @@
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
                                                     <h4>Cupcakes</h4>
-                                                    <h5> $4.00</h5>
+                                                    <h5> <del>$ 4.50</del> $4.00</h5>
                                                     <p>A small but irresistible cake with a whipped cream icing.</p>
                                                     <a class="btn hvr-hover" href="#">Add to Cart</a>
                                                 </div>
