@@ -72,7 +72,7 @@
             <!-- Start Atribute Navigation -->
             <div class="attr-nav">
                 <ul>
-                    <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
                     <li class="side-menu">
                         <a href="#">
                             <i class="fa fa-shopping-bag"></i>
