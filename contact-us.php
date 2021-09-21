@@ -72,7 +72,7 @@
             <!-- Start Atribute Navigation -->
             <div class="attr-nav">
                 <ul>
-                    <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
                     <li class="side-menu">
                         <a href="#">
                             <i class="fa fa-shopping-bag"></i>
@@ -136,7 +136,7 @@
                 <div class="col-lg-12">
                     <h2>Contact Us</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active"> Contact Us </li>
                     </ul>
                 </div>
