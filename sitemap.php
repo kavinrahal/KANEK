@@ -60,6 +60,7 @@
                                 <option>Sign In</option>
                             </select>
                         </div>
+                        <li class="nav-item"><a class="nav-link logout" href="logout.php">Logout</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -67,7 +68,6 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
                         <li class="side-menu">
 							<a href="#">
 								<i class="fa fa-shopping-bag"></i>
