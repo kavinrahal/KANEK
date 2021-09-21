@@ -42,18 +42,18 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo mainLogo" alt=""></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" class="logo mainLogo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="nav-item"><a href="shop-detail.html" class="nav-link">SHOP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.html">Cafes</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="about.php">About Us</a></li>
+                        <li class="nav-item"><a href="shop-detail.php" class="nav-link">SHOP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.php">Cafes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
                         <div class="login-box">
                             <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                                 <option>Register Here</option>
@@ -139,25 +139,23 @@
         </div>
     </div>
 <div class="sitemap-main">
-    
     <div class="container">
         <div class="row">
-            <a href="index.php"> Home</a>
-        </div>
-        <div class="row">
-            <a href="about.php"> About Us</a>
-        </div>
-        <div class="row">
-            <a href="choose-box.php"> Choose your box</a>
-        </div>
-        <div class="row">
-            <a href="contact-us.php"> Contact Us</a>
-        </div>
-        <div class="row">
-            <a href="gallery.php"> Cafe Gallery</a>
-        </div>
-        <div class="row">
-            <a href="shop.php"> Shop Page</a>
+            <div class="col-lg-12">
+                <div class="title-all text-center">
+                    <h1><a class = "title-all" href="index.php"> Home</a></h1>
+                </div>
+            </div>
+            <div class = "col-lg-12 siteMapItems">
+                <h1><a class = "title-all" href="about.php"> About Us</a></h1>
+                <div class = "shopMap">
+                    <h1><a class = "title-all" href="shop.php"> Shop</a></h1>
+                    <a href = "shop-detail.php">- One Time Purchase</a>
+                    <a href = "choose-box.php">- Subscription Box</a>
+                </div>
+                <h1><a class = "title-all" href="gallery.php"> Cafes</a></h1>
+                <h1><a class = "title-all" href="contact-us.php"> Contact Us</a></h1>
+            </div>
         </div>
     </div>
 </div>
