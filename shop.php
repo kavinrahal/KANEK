@@ -773,7 +773,7 @@
                             <ul>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Our Sitemap</a></li>
+                                <li><a href="sitemap.php">Our Sitemap</a></li>
                                 <li><a href="#">Terms &amp; Conditions</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Delivery Information</a></li>
