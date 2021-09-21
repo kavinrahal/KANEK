@@ -1277,6 +1277,23 @@
      bottom: 0;
      opacity: 1;
 }
+/*------------------------------------------------------------------ Site Map -------------------------------------------------------------------*/
+
+.siteMapItems{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sitemap-main{
+    padding: 70px;
+    background: #fdfce5
+}
+
+.shopMap{
+    display: flex;
+    flex-direction: column;
+}
+
 /*------------------------------------------------------------------ Footer Main -------------------------------------------------------------------*/
  .footer-main{
      padding: 70px 0px;
@@ -1560,10 +1577,6 @@
      color: #000000;
 }
  .about-box-main{
-     padding: 70px 0px;
-     background: #fdfce5
-}
- .sitemap-main{
      padding: 70px 0px;
      background: #fdfce5
 }

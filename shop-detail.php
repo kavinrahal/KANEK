@@ -134,7 +134,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Subscription</h2>
+                    <h2>Shop</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Shop</a></li>
                         <li class="breadcrumb-item active">Shop Detail </li>
@@ -194,7 +194,7 @@
                 <div class="col-lg-12">
                     <div class="title-all text-center">
                         <h1>Featured Products</h1>
-                        <p>Check out our picks for this week's featured treats!.</p>
+                        <p>Check out our picks for this week's featured treats!</p>
                     </div>
                     <div class="featured-products-box owl-carousel owl-theme">
                         <div class="item">
@@ -211,8 +211,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Profiteroles</h4>
+                                    <h5> $2.00</h5>
                                 </div>
                             </div>
                         </div>
@@ -230,8 +230,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Cheesecake Slice</h4>
+                                    <h5> $3.00</h5>
                                 </div>
                             </div>
                         </div>
@@ -249,8 +249,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Chocolate Chip Cookies</h4>
+                                    <h5> $1.50</h5>
                                 </div>
                             </div>
                         </div>
@@ -268,8 +268,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Macarons</h4>
+                                    <h5> $4.00</h5>
                                 </div>
                             </div>
                         </div>
@@ -287,8 +287,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Profiteroles</h4>
+                                    <h5> $2.00</h5>
                                 </div>
                             </div>
                         </div>
@@ -306,8 +306,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Cheesecake Slice</h4>
+                                    <h5> $3.00</h5>
                                 </div>
                             </div>
                         </div>
@@ -325,8 +325,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Chocolate Chip Cookies</h4>
+                                    <h5> $1.50</h5>
                                 </div>
                             </div>
                         </div>
@@ -344,8 +344,8 @@
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Lorem ipsum dolor sit amet</h4>
-                                    <h5> $9.79</h5>
+                                    <h4>Macarons</h4>
+                                    <h5> $4.00</h5>
                                 </div>
                             </div>
                         </div>
