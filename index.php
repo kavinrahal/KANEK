@@ -252,7 +252,7 @@
                     <div class="products-single fix">
                         <div class="box-img-hover">
                             <div class="type-lb">
-                                <p class="sale">Sale</p>
+                                <p class="new">New</p>
                             </div>
                             <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
@@ -277,7 +277,7 @@
                     <div class="products-single fix">
                         <div class="box-img-hover">
                             <div class="type-lb">
-                                <p class="new">New</p>
+                                <p class="sale">Sale</p>
                             </div>
                             <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
@@ -327,7 +327,7 @@
                     <div class="products-single fix">
                         <div class="box-img-hover">
                             <div class="type-lb">
-                                <p class="sale">Sale</p>
+                                <p class="new">New</p>
                             </div>
                             <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
