@@ -149,9 +149,15 @@
             <div class = "col-lg-12 siteMapItems">
                 <h1><a class = "title-all" href="about.php"> About Us</a></h1>
                 <div class = "shopMap">
-                    <h1><a class = "title-all" href="shop.php"> Shop</a></h1>
-                    <a href = "shop-detail.php">- One Time Purchase</a>
-                    <a href = "choose-box.php">- Subscription Box</a>
+                    <h1><a class = "title-all" href="shop-detail.php"> Shop</a></h1>
+                    <h2><a class = "title-all" href = "shop.php">&ensp;- One Time Purchase</a><h2>
+                    <div class = "shopMap">
+                        <h2><a class = "title-all" href = "choose-box.php">&ensp;- Subscription Box</a></h2>
+                        <h3><a class = "title-all" href = "standard-box.php"> &emsp;-- Standard Box </a></h3>
+                        <h3><a class = "title-all" href = "vegan-box.php"> &emsp;-- Vegan Box </a></h3>
+                        <h3><a class = "title-all" href = "gluten-box.php"> &emsp;-- Gluten-Free Box </a></h3>
+                    </div>
+
                 </div>
                 <h1><a class = "title-all" href="gallery.php"> Cafes</a></h1>
                 <h1><a class = "title-all" href="contact-us.php"> Contact Us</a></h1>
