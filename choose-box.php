@@ -65,7 +65,7 @@
                                 <option>Sign In</option>
                             </select>
                         </div>
-                        <li class="nav-item"><a class="nav-link logout" href="logout.php">Logout</a></li>
+                        <li class="nav-item"><a class="nav-link" href="logout.php" style = "color:red">Logout</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
