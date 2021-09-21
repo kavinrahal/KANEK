@@ -5,6 +5,7 @@
  
         if($_POST['username']=='inte' && $_POST['password']=='2047') {
             $_SESSION['logged_in']='true';
+            header("Location: index.php");
         }else{
             echo '
             <i>Incorrect login details.
