@@ -136,7 +136,7 @@
                 <div class="col-lg-12">
                     <h2>ABOUT US</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">ABOUT US</li>
                     </ul>
                 </div>
@@ -284,7 +284,7 @@
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
                         </div>
                         <div class="team-description">
-                            <p>Kavin helps to keep the website functioning, as well as update it wiht new features to create optimal experiences for our customers.</p>
+                            <p>Kavin helps to keep the website functioning, as well as update it with new features to create optimal experiences for our customers.</p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>

@@ -150,15 +150,26 @@
         <div class="row">
             <a href="choose-box.php"> Choose your box</a>
         </div>
+        <div class="container">
+            <a href="standard-box.php"> Standard Box</a>
+        </div>
+        <div class="container">
+            <a href="vegan-box.php"> Vegan Box</a>
+        </div>
+        <div class="container">
+            <a href="gluten-box.php"> Gluten Free Box</a>
+        </div>
         <div class="row">
-            <a href="contact-us.php"> Contact Us</a>
+            <a href="shop.php"> Shop Page</a>
         </div>
         <div class="row">
             <a href="gallery.php"> Cafe Gallery</a>
         </div>
         <div class="row">
-            <a href="shop.php"> Shop Page</a>
+            <a href="contact-us.php"> Contact Us</a>
         </div>
+        
+        
     </div>
 </div>
 <footer>
