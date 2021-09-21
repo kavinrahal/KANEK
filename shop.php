@@ -390,7 +390,7 @@
                                                         <div class="type-lb">
                                                             <p class="sale">Sale</p>
                                                         </div>
-                                                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                        <img src="images/cupcake.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -420,7 +420,7 @@
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
                                                         </div>
-                                                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                        <img src="images/caramel_slice.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -450,7 +450,7 @@
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
                                                         </div>
-                                                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                        <img src="images/chocolate_cake.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
