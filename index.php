@@ -149,7 +149,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> Cafe Crate</strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                            <p class="m-b-40">Welcome to your one stop shop, for all your favourite treats from all your favourite local cafes!</p>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> Cafe Crate</strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                            <p class="m-b-40">Welcome to your one stop shop, for all your favourite treats from all your favourite local cafes!</p>
                         </div>
                     </div>
                 </div>
