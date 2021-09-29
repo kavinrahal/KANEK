@@ -53,8 +53,8 @@
                         <div class="footer-link">
                             <h4>Information</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="contact-us.php">Customer Service</a></li>
                                 <li><a href="sitemap.php">Our Sitemap</a></li>
                                 <li><a href="#">Terms &amp; Conditions</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
