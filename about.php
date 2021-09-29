@@ -11,9 +11,9 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="Cafe Crate, About us, Cafe, Subscription, Pastry, Muffin, Cake, Sweet, Box, Treat, Goods">
+    <meta name="description" content="About Us page for Cafe Crate">
+    <meta name="author" content="KANEK">
 
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">

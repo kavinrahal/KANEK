@@ -15,8 +15,10 @@
 						<div class="footer-top-box">
 							<h3>Newsletter</h3>
 							<form class="newsletter-box">
+                                <div class="form-group">
+                                    <input class="" type ="name" name ="Name" placeholder="First Name*"/>
+                                </div>
 								<div class="form-group">
-                                    <input class="" type ="name" name ="Name" placehlder="First Name"/>
 									<input class="" type="email" name="Email" placeholder="Email Address*" />
 									<i class="fa fa-envelope"></i>
 								</div>
@@ -53,8 +55,8 @@
                         <div class="footer-link">
                             <h4>Information</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="contact-us.php">Customer Service</a></li>
                                 <li><a href="sitemap.php">Our Sitemap</a></li>
                                 <li><a href="#">Terms &amp; Conditions</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
