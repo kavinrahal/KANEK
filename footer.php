@@ -15,8 +15,10 @@
 						<div class="footer-top-box">
 							<h3>Newsletter</h3>
 							<form class="newsletter-box">
+                                <div class="form-group">
+                                    <input class="" type ="name" name ="Name" placeholder="First Name*"/>
+                                </div>
 								<div class="form-group">
-                                    <input class="" type ="name" name ="Name" placehlder="First Name"/>
 									<input class="" type="email" name="Email" placeholder="Email Address*" />
 									<i class="fa fa-envelope"></i>
 								</div>
