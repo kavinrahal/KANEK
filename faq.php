@@ -58,7 +58,7 @@
                     <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item"><a href="shop-detail.php" class="nav-link">SHOP</a></li>
                     <li class="nav-item"><a class="nav-link" href="gallery.php">Cafes</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
                     <div class="login-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                             <option>Register Here</option>
@@ -134,10 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Contact Us</h2>
+                    <h2>Frequently Asked Questions</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                        <li class="breadcrumb-item active"> Contact Us </li>
+                        <li class="breadcrumb-item active"> Frequently Asked Questions </li>
                     </ul>
                 </div>
             </div>
@@ -145,76 +145,73 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start Contact Us  -->
-    <div class="contact-box-main">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-sm-12">
-                    <div class="contact-form-right">
-                        <h2>GET IN TOUCH</h2>
-                        <p>Couldn't find the answer to your question? Feel free to complete the form below and we will get back to you!</p>
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="name" placeholder="Subject" required data-error="Please enter your Subject">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="submit-button text-center">
-                                        <button class="btn hvr-hover" id="submit" type="submit">Send Message</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-				<div class="col-lg-4 col-sm-12">
-                    <div class="contact-info-left">
-                        <h2>CONTACT INFO</h2>
-                        <p>Have additional feedback, concerns or questions? Contact us through either of the option below. </p>
-                        <ul>
-                            <li>
-                                <p><i class="fas fa-map-marker-alt"></i>Address: 1 Bourke Street, Melbourne,<br> Victoria, 3000 </p>
-                            </li>
-                            <li>
-                                <p><i class="fas fa-phone-square"></i>Phone: 03 999 999</p>
-                            </li>
-                            <li>
-                                <p><i class="fas fa-envelope"></i>Email: contact@cafecrate.com</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Cart -->
-
+    <!-- Start FAQ-->
     <div class="faq-main">
         <div class="container">
-            <h2> Looking for frequently asked questions? <a href="faq.php">Click Here.</a></h2>
+            <div class="container">
+                <div class="faq-right">
+                    <h2>Frequently Asked Questions</h2>
+                    <br>
+                    <h3>I have dietary restrictions and food allergies. How do I ensure I can consume your products?</h3>
+                    <p>We provide a list of ingrediants and certain food allergies with every box to ensure our customers can safely consume our products. We also offer special boxes for those with dietary restrictions.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq-right">
+                    <h3>Where do you ship?</h3>
+                    <p>We currently ship Australia wide. </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq-right">
+                    <h3>How much is shipping?</h3>
+                    <p>Shipping is FREE with every order because we love our customer that much 💗</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq-right">
+                    <h3>When do you ship?</h3>
+                    <p>We ship out our orders to ensure that you will recive them within the first week of the month. If you havent recieved your within a week, send us a friendly email at contact@cafecrate.com and we'll be happy to help.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq-right">
+                    <h3>What payment options are there?</h3>
+                    <p>We offer multiple payments options such as Visa, Mastercard, Paypal and Giftcards</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq-right">
+                    <h3>When will I be billed?</h3>
+                    <p>Depending on your subscription plan, you will be billed on the 1st day of the month.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq-right">
+                    <h3>What payment options are there?</h3>
+                    <p>We offer multiple payments options such as Visa, Mastercard, Paypal and Giftcards</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq-right">
+                    <h3>How do I cancel my subscription??</h3>
+                    <p>You can cancel your subscription through your account. 
+                        You can also re-activate your subscription anytime through here as well.
+                        Alternativly, you can send us an email at contact@cafecrate.com and we'll be happy to help
+                    </p>
+                </div>
+            </div> 
         </div>
     </div>
+    <!-- End FAQ-->
+    
+    <!-- Start Contact Us  -->
+    <div class="contact-box-main2">
+        <div class="container" align="center">
+            <h2>Couldn't find the answer to your question? Feel free to <b><a href="contact-us.php">contact us here.</a></b></h2>
+        </div>
+    </div>
+    <!-- End -->
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
