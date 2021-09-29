@@ -73,11 +73,10 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="side-menu">
-							<a href="#">
-								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
-								<p>My Cart</p>
+                        <li class="side-menu"><a href="#">
+						<i class="fa fa-shopping-bag"></i>
+						    <span class="badge">3</span>
+							<p>My Cart</p>
 							</a>
 						</li>
                     </ul>
