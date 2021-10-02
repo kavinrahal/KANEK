@@ -56,11 +56,10 @@
                             <h4>Information</h4>
                             <ul>
                                 <li><a href="about.php">About Us</a></li>
+                                <li><a href="shop-detail.php">Our Shop</a></li>
                                 <li><a href="contact-us.php">Customer Service</a></li>
+                                <li><a href="faq.php">Frequently Asked Questions</a></li>
                                 <li><a href="sitemap.php">Our Sitemap</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
                             </ul>
                         </div>
                     </div>

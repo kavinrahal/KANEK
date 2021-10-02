@@ -156,7 +156,6 @@
                     <h2 class="noo-sh-title-top">We are <span>Cafe Crate</span></h2>
                     <p>We at Cafe Crate saw the impact that the pandemic had on smaller businesses, and we have decided to try and help mitigate some of the struggles that they are facing. We are a new business trying to give smaller, less known cafes the chance to compete in a digital market by offering their products to you. We offer products through a monthly subscription service to ensure that everyone gets to engage in different experiences, either ones that you've already known, or maybe find some new ones you enjoy.</p>
                     <p>Our subscription will offer you 15 various goods from 3 cafes, and if you find something you really like you can buy them directly from our store!</p>
-					<a class="btn hvr-hover" href="#">Read More</a>
                 </div>
             </div>
             <div class="row my-5">
@@ -190,16 +189,7 @@
                                 <h3 class="title">Kyle</h3> <span class="post">Analyst</span> </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
+                                    <a href="#" class="fab fa-linkedin"></a>
                                 </li>
                             </ul>
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
@@ -216,16 +206,7 @@
                                 <h3 class="title">Anmol</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
+                                    <a href="#" class="fab fa-linkedin"></a>
                                 </li>
                             </ul>
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
@@ -242,16 +223,7 @@
                                 <h3 class="title">Eddie</h3> <span class="post">Management</span> </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
+                                    <a href="#" class="fab fa-linkedin"></a>
                                 </li>
                             </ul>
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
@@ -268,16 +240,7 @@
                                 <h3 class="title">Kavin</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-google-plus"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-youtube"></a>
+                                    <a href="#" class="fab fa-linkedin"></a>
                                 </li>
                             </ul>
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>

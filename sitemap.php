@@ -159,8 +159,8 @@
                     </div>
 
                 </div>
-                <h1><a class = "title-all" href="gallery.php"> Cafes</a></h1>
                 <h1><a class = "title-all" href="contact-us.php"> Contact Us</a></h1>
+                <h1><a class = "title-all" href="faq.php"> FAQ</a></h1>
             </div>
         </div>
         
