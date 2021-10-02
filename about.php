@@ -11,7 +11,7 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="Cafe Crate, About us, Cafe, Subscription, Pastry, Muffin, Cake, Sweet, Box, Treat, Goods">
+    <meta name="keywords" content="about us, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
     <meta name="description" content="About Us page for Cafe Crate">
     <meta name="author" content="KANEK">
 
