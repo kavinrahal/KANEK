@@ -57,8 +57,8 @@
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item"><a href="shop-detail.php" class="nav-link">SHOP</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.php">Cafes</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="faq.php">FAQ</a></li>
                     <div class="login-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                             <option>Register Here</option>
@@ -207,8 +207,10 @@
     
     <!-- Start Contact Us  -->
     <div class="contact-box-main2">
-        <div class="container" align="center">
-            <h2>Couldn't find the answer to your question? Feel free to <b><a href="contact-us.php">contact us here.</a></b></h2>
+        <div class="container">
+            <div class="faq-right">
+                <h3>Couldn't find the answer to your question? Feel free to <b><a href="contact-us.php">contact us here.</a></b></h3>
+            </div> 
         </div>
     </div>
     <!-- End -->
