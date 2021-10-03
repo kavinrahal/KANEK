@@ -47,8 +47,8 @@
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
                             <h4>About Cafe Crate</h4>
-                            <p>Cafe Crate is a business designed to help struggling cafes during these uncertain times, whether its through advertising or purchasing their products, we aim to assist in whatever way we can.</p> 
-							<p>Cafe Crate also aims to provide you a positive experience, delivering to you delicious treats monthly, and helping our customers to find a little more joy.</p> 							
+                            <p>Cafe Crate is a business designed to help struggling cafes during these uncertain times.</p> 
+							<p>Cafe Crate also aims to provide you a positive experience, delivering delicious treats to you monthly</p> 							
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
