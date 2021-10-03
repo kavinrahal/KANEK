@@ -73,44 +73,16 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="side-menu">
-							<a href="#">
-								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
-								<p>My Cart</p>
-							</a>
-						</li>
+                        <li class="side-menu"><a href="./cart.php">
+                        <i class="fa fa-shopping-bag"></i>
+                            <p>My Cart</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
             </div>
             <!-- Start Side Menu -->
-            <div class="side">
-                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                <li class="cart-box">
-                    <ul class="cart-list">
-                        <li>
-                            <a href="#" class="photo"><img src="images/cupcake.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Cupcakes </a></h6>
-                            <p>1x - <span class="price">$4.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/caramel_slice.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Caramel Slice</a></h6>
-                            <p>1x - <span class="price">$5.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/chocolate_cake.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Chocolate Cake</a></h6>
-                            <p>1x - <span class="price">$7.00</span></p>
-                        </li>
-                        <li class="total">
-                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                            <span class="float-right"><strong>Total</strong>: $16</span>
-                        </li>
-                    </ul>
-                </li>
-            </div>
             <!-- End Side Menu -->
         </nav>
         <!-- End Navigation -->
