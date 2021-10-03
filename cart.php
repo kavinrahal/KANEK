@@ -250,14 +250,10 @@
                             <h4>Coupon Discount</h4>
                             <div class="ml-auto font-weight-bold"> $ 0 </div>
                         </div>
-                        <div class="d-flex">
-                            <h4>Shipping Cost</h4>
-                            <div class="ml-auto font-weight-bold"> $ 10 </div>
-                        </div>
                         <hr>
                         <div class="d-flex gr-total">
                             <h5>Grand Total</h5>
-                            <div class="ml-auto h5"> $ 26 </div>
+                            <div class="ml-auto h5"> $ 16 </div>
                         </div>
                         <hr> </div>
                 </div>
