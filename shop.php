@@ -28,6 +28,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCartjs/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -182,7 +186,7 @@
                                 <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
                                     <div class="row">
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
@@ -194,17 +198,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Cupcakes</h4>
-                                                    <h5> $4.00</h5>
+                                                    <h4 class = "item_name">Cupcakes</h4>
+                                                    <h5 class = "item_price"> $4.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
@@ -216,17 +220,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Caramel Slice</h4>
-                                                    <h5> $5.00</h5>
+                                                    <h4 class = "item_name">Caramel Slice</h4>
+                                                    <h5 class = "item_price"> $5.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
@@ -238,17 +242,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Chocolate Cake</h4>
-                                                    <h5> $7.00</h5>
+                                                    <h4 class = "item_name">Chocolate Cake</h4>
+                                                    <h5 class = "item_price"> $7.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
@@ -260,17 +264,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Profiteroles</h4>
-                                                    <h5> $2.00</h5>
+                                                    <h4 class = "item_name">Profiteroles</h4>
+                                                    <h5 class = "item_price"> $2.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
@@ -282,17 +286,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Cheesecake Slice</h4>
-                                                    <h5> $3.00</h5>
+                                                    <h4 class = "item_name">Cheesecake Slice</h4>
+                                                    <h5 class = "item_price"> $3.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
@@ -304,17 +308,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Chocolate Chip Cookies</h4>
-                                                    <h5> $1.50</h5>
+                                                    <h4 class = "item_name">Chocolate Chip Cookies</h4>
+                                                    <h5 class = "item_price"> $1.50</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
@@ -326,17 +330,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Macarons</h4>
-                                                    <h5> $4.00</h5>
+                                                    <h4 class = "item_name">Macarons</h4>
+                                                    <h5 class = "item_price"> $4.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
@@ -348,17 +352,17 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Carrot Cake</h4>
-                                                    <h5> $2.00</h5>
+                                                    <h4 class = "item_name">Carrot Cake</h4>
+                                                    <h5 class = "item_price"> $2.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
+                                            <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
@@ -370,12 +374,12 @@
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Add to Cart</a>
+                                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Croissant</h4>
-                                                    <h5> $2.50</h5>
+                                                    <h4 class = "item_name">Croissant</h4>
+                                                    <h5 class = "item_price"> $2.50</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -385,7 +389,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="sale">Sale</p>
@@ -404,10 +408,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Cupcakes</h4>
-                                                    <h5> <del>$ 4.50</del> $4.00</h5>
+                                                    <h4 class = "item_name">Cupcakes</h4>
+                                                    <h5 class = "item_price"> <del>$ 4.50</del> $4.00</h5>
                                                     <p>A small but irresistible cake with a whipped cream icing.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -415,7 +419,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
@@ -434,10 +438,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Caramel Slice</h4>
-                                                    <h5> $5.00</h5>
+                                                    <h4 class = "item_name">Caramel Slice</h4>
+                                                    <h5 class = "item_price"> $5.00</h5>
                                                     <p>A slice of caramel cake with some oozy caramel sauce.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -445,7 +449,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
@@ -464,10 +468,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Chocolate Cake</h4>
-                                                    <h5> $7.00</h5>
+                                                    <h4 class = "item_name">Chocolate Cake</h4>
+                                                    <h5 class = "item_price"> $7.00</h5>
                                                     <p>A round chocolate cake with lava flowing chocolate on the insides, topped with icing.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -475,7 +479,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
@@ -494,10 +498,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Profiteroles</h4>
-                                                    <h5> $2.00</h5>
+                                                    <h4 class = "item_name">Profiteroles</h4>
+                                                    <h5 class = "item_price"> $2.00</h5>
                                                     <p>A filled French choux pastry ball with a sweet and moist filling of whipped cream.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -505,7 +509,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="sale">Sale</p>
@@ -524,10 +528,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Cheesecake Slice</h4>
-                                                    <h5> <del>$ 4.00</del> $3.00</h5>
+                                                    <h4 class = "item_name">Cheesecake Slice</h4>
+                                                    <h5 class = "item_price"> <del>$ 4.00</del> $3.00</h5>
                                                     <p>A luscious, rich and sweet dessert that consists of a mixture of fresh cheese, eggs and sugar. With a bottom layer and crust made from crushed graham crackers.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -535,7 +539,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="sale">Sale</p>
@@ -554,10 +558,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Chocolate Chip Cookies</h4>
-                                                    <h5> <del>$ 2.00</del> $1.50</h5>
+                                                    <h4 class = "item_name">Chocolate Chip Cookies</h4>
+                                                    <h5 class = "item_price"> <del>$ 2.00</del> $1.50</h5>
                                                     <p>A sweet and chewy cookie with chocolate chips that melt in your mouth as you chew.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -565,7 +569,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
@@ -584,10 +588,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Macarons</h4>
-                                                    <h5> $4.00</h5>
+                                                    <h4 class = "item_name">Macarons</h4>
+                                                    <h5 class = "item_price"> $4.00</h5>
                                                     <p>A sweet meringue-based confection sandwich cookie consisting of two rounded disks made with egg white, icing sugar, granulated sugar, almond meal and food colouring.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -595,7 +599,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
@@ -614,10 +618,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Carrot Cake</h4>
-                                                    <h5> $2.00</h5>
+                                                    <h4 class = "item_name">Carrot Cake</h4>
+                                                    <h5 class = "item_price"> $2.00</h5>
                                                     <p>A moist and soft cake that contains carrots and walnuts mixed into the batter with a layer of white cream cheese frosting.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -625,7 +629,7 @@
                                     <div class="list-view-box">
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
+                                                <div class="products-single fix simpleCart_shelfItem">
                                                     <div class="box-img-hover">
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
@@ -644,10 +648,10 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Croissant</h4>
-                                                    <h5> $2.50</h5>
+                                                    <h4 class = "item_name">Croissant</h4>
+                                                    <h5 class = "item_price"> $2.50</h5>
                                                     <p>A buttery, flaky and viennoiserie pastry.</p>
-                                                    <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                                    <a class="btn hvr-hover" href="javascript:;">Add to Cart</a>
                                                 </div>
                                             </div>
                                         </div>

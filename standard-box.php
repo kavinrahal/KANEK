@@ -28,6 +28,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCartjs/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -164,41 +168,45 @@
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-6">
                     <div class="single-product-details">
-                        <h2>Standard Box</h2>
+                        <h2 class = "item_name">Standard Box</h2>
 						<h4>Short Description:</h4>
 						<p>The standard box has everything you could ever want. Giving cafes complete freedom to package their best treats for your eating pleasure  </p>
-						<p>Each box contains: 15 different goods from 3 cafes, a variety of snacks, no required dietry restrictions, a brochure telling you about each cafe</p>
+						<p>Each box contains: 15 different goods from 3 cafes, a variety of snacks, no required dietary restrictions, a brochure telling you about each cafe</p>
 						<ul>
 							<li>
 								<div class="form-group quantity-box">
 									<label class="control-label">Choose subscription type</label>
 									<div class="row">
-										<div class="col-sm">
-											<a href = "#">
+										<div class="col-sm simpleCart_shelfItem">
+                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/1month.png" width="209" height="57">
 											<a/>
-											$540 yearly
+											<div class = "item_price">$540 yearly</div>
 											<p></p>
 										</div>
-										<div class="col-sm">
-											<a href = "#">
+										<div class="col-sm simpleCart_shelfItem">
+                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/3month.png" width="209" height="57">
 											<a/>
-											$516 yearly
+											<div class = "item_price">$516 yearly</div>
 											<p></p>
 										</div>
-										<div class="col-sm">
-											<a href = "#">
+										<div class="col-sm simpleCart_shelfItem">
+                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/6month.png" width="209" height="57">
 											<a/>
-											$492 yearly
+											<div class = "item_price">$492 yearly</div>
 											<p></p>
 										</div>
-										<div class="col-sm">
-											<a href = "#">
+										<div class="col-sm simpleCart_shelfItem">
+                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/12month.png" width="209" height="57">
 											<a/>
-											$468 yearly
+											<div class = "item_price">$468 yearly</div>
 										</div>
 
 									</div>
