@@ -82,6 +82,7 @@
                         <li class="side-menu active"><a href="#">
 						<i class="fa fa-shopping-bag"></i>
 							<p>My Cart</p>
+                            <sup class = "simpleCart_quantity"></sup>
 							</a>
 						</li>
                     </ul>
@@ -135,7 +136,7 @@
                 </div>
                 <div class="col">
                     <div class="order-box">
-                        <h2>Order summary</h2>
+                        <h2 style = "font-weight: bold">Order summary</h2>
                         <div class="d-flex">
                             <h4>Sub Total</h4>
                             <div class="ml-auto font-weight-bold"><div class="simpleCart_total"></div></div>

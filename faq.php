@@ -76,6 +76,7 @@
                     <li class="side-menu"><a href="./cart.php">
                     <i class="fa fa-shopping-bag"></i>
                         <p>My Cart</p>
+                        <sup class = "simpleCart_quantity"></sup>
                         </a>
                 </li>
                 </ul>

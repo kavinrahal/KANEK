@@ -80,6 +80,7 @@
                         <li class="side-menu"><a href="./cart.php">
                         <i class="fa fa-shopping-bag"></i>
                             <p>My Cart</p>
+                            <sup class = "simpleCart_quantity"></sup>
                             </a>
                         </li>
                     </ul>
@@ -151,7 +152,7 @@
 									<label class="control-label">Choose subscription type</label>
 									<div class="row">
 										<div class="col-sm simpleCart_shelfItem">
-                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+                                            <p class="item_name" style="color:#fdfce5">Standard Box - 1 Month</p>
 											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/1month.png" width="209" height="57">
 											<a/>
@@ -159,7 +160,7 @@
 											<p></p>
 										</div>
 										<div class="col-sm simpleCart_shelfItem">
-                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+                                            <p class="item_name" style="color:#fdfce5">Standard Box - 3 Month</p>
 											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/3month.png" width="209" height="57">
 											<a/>
@@ -167,7 +168,7 @@
 											<p></p>
 										</div>
 										<div class="col-sm simpleCart_shelfItem">
-                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+                                            <p class="item_name" style="color:#fdfce5">Standard Box - 6 Month</p>
 											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/6month.png" width="209" height="57">
 											<a/>
@@ -175,7 +176,7 @@
 											<p></p>
 										</div>
 										<div class="col-sm simpleCart_shelfItem">
-                                            <input type = "hidden" class = "item_name" value = "Standard Box">
+                                            <p class="item_name" style="color:#fdfce5">Standard Box - 12 Month</p>
 											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/12month.png" width="209" height="57">
 											<a/>
