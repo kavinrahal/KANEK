@@ -11,9 +11,9 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="Home page, Index page, Landing page, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
+    <meta name="description" content="Cafe Crate index page">
+    <meta name="author" content="KANEK">
 
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
@@ -61,8 +61,8 @@
                         <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         <li class="nav-item"><a href="shop-detail.php" class="nav-link">SHOP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.php">Cafes</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.php">FAQ</a></li>
                         <div class="login-box">
                             <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                                 <option>Register Here</option>
@@ -77,44 +77,16 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="side-menu">
-							<a href="#">
-								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
-								<p>My Cart</p>
-							</a>
-						</li>
+                        <li class="side-menu"><a href="./cart.php">
+                        <i class="fa fa-shopping-bag"></i>
+                            <p>My Cart</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
             </div>
             <!-- Start Side Menu -->
-            <div class="side">
-                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                <li class="cart-box">
-                    <ul class="cart-list">
-                        <li>
-                            <a href="#" class="photo"><img src="images/cupcake.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Cupcakes </a></h6>
-                            <p>1x - <span class="price">$4.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/caramel_slice.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Caramel Slice</a></h6>
-                            <p>1x - <span class="price">$5.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/chocolate_cake.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Chocolate Cake</a></h6>
-                            <p>1x - <span class="price">$7.00</span></p>
-                        </li>
-                        <li class="total">
-                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                            <span class="float-right"><strong>Total</strong>: $16</span>
-                        </li>
-                    </ul>
-                </li>
-            </div>
             <!-- End Side Menu -->
         </nav>
         <!-- End Navigation -->
@@ -183,13 +155,11 @@
             <div class="row title-all">
                 <h1>Who are we?</h1>
                 <p>We at Cafe Crate saw the impact that the pandemic had on smaller businesses, 
-                    and we have decided to try and help mitigate some of the struggles that they are facing. 
+                    and we have decided to try and help mitigate some of the struggles that they are facing.
                     We are a new business trying to give smaller, less known cafes the chance to compete in a 
-                    digital market by offering their products to you. We offer products through a monthly subscription 
-                    service to ensure that everyone gets to engage in different experiences, either ones that you've already known, 
-                    or maybe find some new ones you enjoy.
+                    digital market by offering their products to you. 
                     <br><br>
-                    Our subscription will offer you 15 various goods from 3 cafes, and if you find something you really like you can 
+                    Our monthly subscription will offer you 15 various goods from 3 cafes, and if you find something you really like you can 
                     buy them directly from our store!
                 </p>
             </div>

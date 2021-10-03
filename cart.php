@@ -11,9 +11,9 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="cart, shopping, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
+    <meta name="description" content="Cart for Cafe Crate">
+    <meta name="author" content="KANEK">
 
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
@@ -43,7 +43,6 @@
 
 <body>
     <?php include('login.php'); ?>
-
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -90,32 +89,7 @@
                 <!-- End Atribute Navigation -->
             </div>
             <!-- Start Side Menu -->
-            <div class="side">
-                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                <li class="cart-box">
-                    <ul class="cart-list">
-                        <li>
-                            <a href="#" class="photo"><img src="images/cupcake.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Cupcakes </a></h6>
-                            <p>1x - <span class="price">$4.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/caramel_slice.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Caramel Slice</a></h6>
-                            <p>1x - <span class="price">$5.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/chocolate_cake.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Chocolate Cake</a></h6>
-                            <p>1x - <span class="price">$7.00</span></p>
-                        </li>
-                        <li class="total">
-                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                            <span class="float-right"><strong>Total</strong>: $16</span>
-                        </li>
-                    </ul>
-                </li>
-            </div>
+
             <!-- End Side Menu -->
         </nav>
         <!-- End Navigation -->
@@ -141,7 +115,7 @@
                 <div class="col-lg-12">
                     <h2>Cart</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item"><a href="shop.php">Shop</a></li>
                         <li class="breadcrumb-item active">Cart</li>
                     </ul>
                 </div>

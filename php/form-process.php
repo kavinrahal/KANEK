@@ -16,12 +16,6 @@ if (empty($_POST["email"])) {
     $email = $_POST["email"];
 }
 
-// Subject
-if (empty($_POST["subject"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $subject = $_POST["guest"];
-}
 
 // MESSAGE
 if (empty($_POST["message"])) {
@@ -31,7 +25,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "armanmia7@gmail.com";
+$EmailTo = "cafecrate@gmail.com";
 $Subject = "New Message Received";
 
 // prepare email body text
@@ -42,12 +36,6 @@ $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
-$Body .= "guest: ";
-$Body .= $guest;
-$Body .= "\n";
-$Body .= "event: ";
-$Body .= $event;
-$Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
@@ -57,7 +45,7 @@ $success = mail($EmailTo, $Subject, $Body, "From:".$email);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
-   echo "success";
+   echo "Message Sent";
 }else{
     if($errorMSG == ""){
         echo "Something went wrong :(";

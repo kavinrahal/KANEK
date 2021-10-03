@@ -11,9 +11,9 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="Contact Us, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
+    <meta name="description" content="Contact us page for Cafe Crate">
+    <meta name="author" content="KANEK">
 
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
@@ -57,8 +57,8 @@
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item"><a href="shop-detail.php" class="nav-link">SHOP</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.php">Cafes</a></li>
                     <li class="nav-item active"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.php">FAQ</a></li>
                     <div class="login-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                             <option>Register Here</option>
@@ -73,11 +73,9 @@
             <!-- Start Atribute Navigation -->
             <div class="attr-nav">
                 <ul>
-                    <li class="side-menu">
-                        <a href="#">
-                            <i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
-                            <p>My Cart</p>
+                    <li class="side-menu"><a href="./cart.php">
+                    <i class="fa fa-shopping-bag"></i>
+                        <p>My Cart</p>
                         </a>
                     </li>
                 </ul>
@@ -85,32 +83,7 @@
             <!-- End Atribute Navigation -->
         </div>
         <!-- Start Side Menu -->
-        <div class="side">
-            <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-            <li class="cart-box">
-                <ul class="cart-list">
-                    <li>
-                        <a href="#" class="photo"><img src="images/cupcake.jpg" class="cart-thumb" alt="" /></a>
-                        <h6><a href="#">Cupcakes </a></h6>
-                        <p>1x - <span class="price">$4.00</span></p>
-                    </li>
-                    <li>
-                        <a href="#" class="photo"><img src="images/caramel_slice.jpg" class="cart-thumb" alt="" /></a>
-                        <h6><a href="#">Caramel Slice</a></h6>
-                        <p>1x - <span class="price">$5.00</span></p>
-                    </li>
-                    <li>
-                        <a href="#" class="photo"><img src="images/chocolate_cake.jpg" class="cart-thumb" alt="" /></a>
-                        <h6><a href="#">Chocolate Cake</a></h6>
-                        <p>1x - <span class="price">$7.00</span></p>
-                    </li>
-                    <li class="total">
-                        <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                        <span class="float-right"><strong>Total</strong>: $16</span>
-                    </li>
-                </ul>
-            </li>
-        </div>
+        
         <!-- End Side Menu -->
     </nav>
     <!-- End Navigation -->
@@ -153,29 +126,29 @@
                     <div class="contact-form-right">
                         <h2>GET IN TOUCH</h2>
                         <p>Couldn't find the answer to your question? Feel free to complete the form below and we will get back to you!</p>
-                        <form id="contactForm">
+                        <form id="contactForm" method = "post">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                                        <input type="email" placeholder="Your Email" id="email" class="form-control" name="email" required data-error="Please enter your email" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="name" placeholder="Subject" required data-error="Please enter your Subject">
+                                        <input type="text" class="form-control" id="last" name="last" placeholder="Subject" required data-error="Please enter the subject" required>
                                         <div class="help-block with-errors"></div>
-                                    </div>
+                                    </div>                                    
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="submit-button text-center">

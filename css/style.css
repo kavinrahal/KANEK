@@ -896,7 +896,7 @@
      color: #000000;
 }
  .title-all p{
-     color: #999999;
+     color: #5d4b31;
      font-size: 16px;
 }
  .products-box{
@@ -1654,12 +1654,12 @@
 }
 
 .service-block-inner:hover h3{
-	color: #ffffff;
+	color: #9a7b4f;
 	transition: all 0.5s ease 0s;
 }
 
 .service-block-inner:hover p{
-	color: #ffffff;
+	color: #9a7b4f;
 	transition: all 0.5s ease 0s;
 }
 
@@ -2399,7 +2399,7 @@
      padding: 70px 0px;
      background: #fdfce5;
 }
-.contact-box-main2{
+ .contact-box-main2{
      padding: 70px 0px;
      background: #e4e2c6;
 
