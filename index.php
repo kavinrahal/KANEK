@@ -151,13 +151,11 @@
             <div class="row title-all">
                 <h1>Who are we?</h1>
                 <p>We at Cafe Crate saw the impact that the pandemic had on smaller businesses, 
-                    and we have decided to try and help mitigate some of the struggles that they are facing. 
+                    and we have decided to try and help mitigate some of the struggles that they are facing.
                     We are a new business trying to give smaller, less known cafes the chance to compete in a 
-                    digital market by offering their products to you. We offer products through a monthly subscription 
-                    service to ensure that everyone gets to engage in different experiences, either ones that you've already known, 
-                    or maybe find some new ones you enjoy.
+                    digital market by offering their products to you. 
                     <br><br>
-                    Our subscription will offer you 15 various goods from 3 cafes, and if you find something you really like you can 
+                    Our monthly subscription will offer you 15 various goods from 3 cafes, and if you find something you really like you can 
                     buy them directly from our store!
                 </p>
             </div>
