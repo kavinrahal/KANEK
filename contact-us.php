@@ -188,7 +188,7 @@
     </div>
     <!-- End Cart -->
 
-    <div class="faq-main">
+    <div class="contact-box-main2">
         <div class="container">
             <h2> Looking for frequently asked questions? <a href="faq.php">Click Here.</a></h2>
         </div>

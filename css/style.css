@@ -2402,7 +2402,10 @@
  .contact-box-main2{
      padding: 70px 0px;
      background: #e4e2c6;
-
+}
+  .contact-box-main2 h2{
+    font-size: 24px;
+    font-weight: 500;
 }
 .faq-main{
      padding: 70px 0px;
