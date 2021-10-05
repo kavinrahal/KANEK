@@ -162,7 +162,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                        <div class="our-team"> <img src="images/img-4.jpg" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Kyle</h3> <span class="post">Analyst</span> </div>
                             <ul class="social">
