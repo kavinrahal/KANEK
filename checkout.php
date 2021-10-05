@@ -212,7 +212,7 @@
                                     <label for="country">Country *</label>
                                     <select class="wide w-100" id="country">
 									<option value="Choose..." data-display="Select">Choose...</option>
-									<option value="United States">United States</option>
+									<option value="Australia">Australia</option>
 								</select>
                                     <div class="invalid-feedback"> Please select a valid country. </div>
                                 </div>
@@ -220,7 +220,7 @@
                                     <label for="state">State *</label>
                                     <select class="wide w-100" id="state">
 									<option data-display="Select">Choose...</option>
-									<option>California</option>
+									<option>Victoria</option>
 								</select>
                                     <div class="invalid-feedback"> Please provide a valid state. </div>
                                 </div>
