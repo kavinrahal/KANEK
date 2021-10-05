@@ -168,7 +168,7 @@
 											<p></p>
 										</div>
 										<div class="col-sm simpleCart_shelfItem">
-                                            <p class="item" style="color:#fdfce5">Gluten-Free Box - 6 Month</p>
+                                            <p class="item_name" style="color:#fdfce5">Gluten-Free Box - 6 Month</p>
 											<a class = "item_add" href = "javascript:;">
 											<img border="0" alt="subscribe" src="images/6month.png" width="209" height="57">
 											<a/>

@@ -133,11 +133,9 @@
                                 <div class="toolbar-sorter-right">
                                     <span>Sort by </span>
                                     <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-									<option data-display="Select">Nothing</option>
-									<option value="1">Popularity</option>
-									<option value="2">High Price → High Price</option>
-									<option value="3">Low Price → High Price</option>
-									<option value="4">Best Selling</option>
+									<option data-display="Select" data-filter="*">All</option>
+									<option value="1" data-filter=".popularity">Popularity</option>
+									<option value="2" data-filter=".best-selling">Best Selling</option>
 								</select>
                                 </div>
                                 <p>Showing all 9 results</p>
@@ -158,7 +156,7 @@
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
                                     <div class="row">
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 best-selling">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -180,7 +178,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 popularity">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -202,7 +200,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 best-selling">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -224,7 +222,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 popularity">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -246,7 +244,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 best-selling">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -268,7 +266,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 best-selling">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -290,7 +288,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 popularity">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -334,7 +332,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 popularity">
                                             <div class="products-single fix simpleCart_shelfItem">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
