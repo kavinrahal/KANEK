@@ -131,7 +131,7 @@
                     <div class="title-all text-center">
                         <h1>Thank you for your purchase!</h1>
                         <p></p> 
-                        <p>You should recieve an confirmation email shortly!</p>
+                        <p>You should recieve a confirmation email shortly!</p>
                     </div>
                 </div>
             </div>

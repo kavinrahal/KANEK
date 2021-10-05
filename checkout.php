@@ -357,7 +357,7 @@
                                 </div>
                                 <hr> </div>
                         </div>
-                        <div class="col-12 d-flex shopping-box"> <a href="checkout.html" class="ml-auto btn hvr-hover">Place Order</a> </div>
+                        <div class="col-12 d-flex shopping-box"> <a href="thankyou.php" onclick = "javascript:;" class="ml-auto btn hvr-hover simpleCart_empty">Place Order</a> </div>
                     </div>
                 </div>
             </div>
