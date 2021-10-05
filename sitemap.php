@@ -138,6 +138,7 @@
                 <div class="cartMap">
                     <h1><a class = "title-all" href = "cart.php"> Cart</a></h1>
                     <h2><a class ="title-all" href="checkout.php">&ensp;- Checkout</a></h2>
+                    <h3><a class = "title-all"href = "thankyou.php">&emsp;-- Thank You </a></h3>
                 </div>  
             </div>
         </div>
