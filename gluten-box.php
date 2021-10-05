@@ -11,7 +11,7 @@
 
     <!-- Site Metas -->
     <title>ThewayShop - Ecommerce Bootstrap 4 HTML Template</title>
-    <meta name="keywords" content="Gluten Free, gluten-free, no gluten, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
+    <meta name="keywords" content="Gluten Free, gluten-free, no gluten, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly, australia, local">
     <meta name="description" content="Gluten free subscription box">
     <meta name="author" content="KANEK">
 

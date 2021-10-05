@@ -11,7 +11,7 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="about us, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
+    <meta name="keywords" content="about us, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly, australia, local">
     <meta name="description" content="About Us page for Cafe Crate">
     <meta name="author" content="KANEK">
 
@@ -162,7 +162,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-4.jpg" alt="" />
+                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Kyle</h3> <span class="post">Analyst</span> </div>
                             <ul class="social">
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                        <div class="our-team"> <img src="images/img-4.jpg" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Kavin</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
