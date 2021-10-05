@@ -135,6 +135,10 @@
                 </div>
                 <h1><a class = "title-all" href="contact-us.php"> Contact Us</a></h1>
                 <h1><a class = "title-all" href="faq.php"> FAQ</a></h1>
+                <div class="cartMap">
+                    <h1><a class = "title-all" href = "cart.php"> Cart</a></h1>
+                    <h2><a class ="title-all" href="checkout.php">&ensp;- Checkout</a></h2>
+                </div>  
             </div>
         </div>
         
