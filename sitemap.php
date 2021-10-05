@@ -8,7 +8,7 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="sitemap, navigation, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
+    <meta name="keywords" content="sitemap, navigation, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly, australia, local">
     <meta name="description" content="Cafe Crate sitemap">
     <meta name="author" content="KANEK">
 

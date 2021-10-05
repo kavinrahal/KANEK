@@ -11,7 +11,7 @@
 
     <!-- Site Metas -->
     <title>Cafe Crate</title>
-    <meta name="keywords" content="Contact Us, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly">
+    <meta name="keywords" content="Contact Us, food, subscription, vegan, gluten free, standard, cafe, cafe crate, treat, goodies, sweets, cake, muffin, slice, cookie, pastry, monthly, australia, local">
     <meta name="description" content="Contact us page for Cafe Crate">
     <meta name="author" content="KANEK">
 
