@@ -28,6 +28,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCartjs/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -172,7 +176,7 @@
                     </div>
                     <div class="featured-products-box owl-carousel owl-theme">
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -181,17 +185,17 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Profiteroles</h4>
-                                    <h5> $2.00</h5>
+                                    <h4 class = "item_name">Profiteroles</h4>
+                                    <h5 class = "item_price"> $2.00</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -200,17 +204,17 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Cheesecake Slice</h4>
-                                    <h5> $3.00</h5>
+                                    <h4 class = "item_name">Cheesecake Slice</h4>
+                                    <h5 class = "item_price"> $3.00</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -219,17 +223,17 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Chocolate Chip Cookies</h4>
-                                    <h5> $1.50</h5>
+                                    <h4 class = "item_name">Chocolate Chip Cookies</h4>
+                                    <h5 class = "item_price"> $1.50</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -238,17 +242,17 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Macarons</h4>
-                                    <h5> $4.00</h5>
+                                    <h4 class = "item_name">Macarons</h4>
+                                    <h5 class = "item_price"> $4.00</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -257,17 +261,17 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Profiteroles</h4>
-                                    <h5> $2.00</h5>
+                                    <h4 class = "item_name">Profiteroles</h4>
+                                    <h5 class = "item_price"> $2.00</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -276,17 +280,17 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Cheesecake Slice</h4>
-                                    <h5> $3.00</h5>
+                                    <h4 class = "item_name">Cheesecake Slice</h4>
+                                    <h5 class = "item_price"> $3.00</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -295,17 +299,17 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Chocolate Chip Cookies</h4>
-                                    <h5> $1.50</h5>
+                                    <h4 class = "item_name">Chocolate Chip Cookies</h4>
+                                    <h5 class = "item_price"> $1.50</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="products-single fix">
+                            <div class="products-single fix simpleCart_shelfItem">
                                 <div class="box-img-hover">
                                     <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
                                     <div class="mask-icon">
@@ -314,12 +318,12 @@
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                         </ul>
-                                        <a class="cart" href="#">Add to Cart</a>
+                                        <a class="cart item_add" href="javascript:;">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="why-text">
-                                    <h4>Macarons</h4>
-                                    <h5> $4.00</h5>
+                                    <h4 class = "item_name">Macarons</h4>
+                                    <h5 class = "item_price"> $4.00</h5>
                                 </div>
                             </div>
                         </div>

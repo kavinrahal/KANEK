@@ -28,6 +28,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCartjs/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
+
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -55,7 +60,7 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="about.php">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         <li class="nav-item"><a href="shop-detail.php" class="nav-link">SHOP</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="faq.php">FAQ</a></li>
@@ -299,14 +304,7 @@
                                     <div class="custom-control custom-radio">
                                         <input id="shippingOption1" name="shipping-option" class="custom-control-input" checked="checked" type="radio">
                                         <label class="custom-control-label" for="shippingOption1">Standard Delivery</label> <span class="float-right font-weight-bold">FREE</span> </div>
-                                    <div class="ml-4 mb-2 small">(3-7 business days)</div>
-                                    <div class="custom-control custom-radio">
-                                        <input id="shippingOption2" name="shipping-option" class="custom-control-input" type="radio">
-                                        <label class="custom-control-label" for="shippingOption2">Express Delivery</label> <span class="float-right font-weight-bold">$10.00</span> </div>
-                                    <div class="ml-4 mb-2 small">(2-4 business days)</div>
-                                    <div class="custom-control custom-radio">
-                                        <input id="shippingOption3" name="shipping-option" class="custom-control-input" type="radio">
-                                        <label class="custom-control-label" for="shippingOption3">Next Business day</label> <span class="float-right font-weight-bold">$20.00</span> </div>
+                                    <div class="ml-4 mb-2 small">(1-2 business days)</div>
                                 </div>
                             </div>
                         </div>
@@ -316,25 +314,12 @@
                                     <h3>Shopping cart</h3>
                                 </div>
                                 <div class="rounded p-2 bg-light">
-                                    <div class="media mb-2 border-bottom">
-                                        <div class="media-body"> <a href="detail.html"> Cupcake</a>
-                                            <div class="small text-muted">Price: $4.00 <span class="mx-2">|</span> Qty: 1 <span class="mx-2">|</span> Subtotal: $4.00</div>
-                                        </div>
-                                    </div>
-                                    <div class="media mb-2 border-bottom">
-                                        <div class="media-body"> <a href="detail.html"> Caramel Slice</a>
-                                            <div class="small text-muted">Price: $5.00 <span class="mx-2">|</span> Qty: 1 <span class="mx-2">|</span> Subtotal: $5.00</div>
-                                        </div>
-                                    </div>
-                                    <div class="media mb-2">
-                                        <div class="media-body"> <a href="detail.html"> Chocolate Cake</a>
-                                            <div class="small text-muted">Price: $7.00 <span class="mx-2">|</span> Qty: 1 <span class="mx-2">|</span> Subtotal: $7.00</div>
-                                        </div>
-                                    </div>
+                                    <div class = "simpleCart_items table"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-12">
+                        <br>
                             <div class="order-box">
                                 <div class="title-left">
                                     <h3>Your order</h3>
@@ -346,7 +331,7 @@
                                 <hr class="my-1">
                                 <div class="d-flex">
                                     <h4>Sub Total</h4>
-                                    <div class="ml-auto font-weight-bold"> $ 16.00 </div>
+                                    <div class="ml-auto font-weight-bold"><div class="simpleCart_total"></div></div>
                                 </div>
                                 <div class="d-flex">
                                     <h4>Discount</h4>
@@ -363,12 +348,12 @@
                                 </div>
                                 <div class="d-flex">
                                     <h4>Shipping Cost</h4>
-                                    <div class="ml-auto font-weight-bold"> $10.00 </div>
+                                    <div class="ml-auto font-weight-bold"><span class="simpleCart_shipping"></span></div>
                                 </div>
                                 <hr>
                                 <div class="d-flex gr-total">
                                     <h5>Grand Total</h5>
-                                    <div class="ml-auto h5"> $ 26.00 </div>
+                                    <div class="ml-auto h5"><span class="simpleCart_grandTotal"></span></div>
                                 </div>
                                 <hr> </div>
                         </div>

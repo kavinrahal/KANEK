@@ -49,7 +49,7 @@
         <nav class="navbar navbar-expand-lg navbar-default bootsnav">
             <div class="container">
                 <!-- Start Header Navigation -->
-                <div class="navbar-header">
+                <div class="navbar-headeFr">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
@@ -63,8 +63,8 @@
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         <li class="nav-item"><a href="shop-detail.php" class="nav-link">SHOP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.php">Cafes</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.php">FAQ</a></li>
                         <div class="login-box">
                             <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                                 <option>Register Here</option>
@@ -79,18 +79,17 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="side-menu active"><a href="#">
-						<i class="fa fa-shopping-bag"></i>
-							<p>My Cart</p>
+						<li class="side-menu active"><a href="./cart.php">
+                        <i class="fa fa-shopping-bag"></i>
+                            <p>My Cart</p>
                             <sup class = "simpleCart_quantity"></sup>
-							</a>
-						</li>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
             </div>
             <!-- Start Side Menu -->
-
             <!-- End Side Menu -->
         </nav>
         <!-- End Navigation -->
@@ -160,7 +159,7 @@
                             <div class="ml-auto h5"><span class="simpleCart_grandTotal"></span></div>
                         </div>
                         <hr> 
-                        <div class="col-12 d-flex shopping-box"><a href="checkout.html" class="ml-auto btn hvr-hover">Checkout</a> </div>
+                        <div class="col-12 d-flex shopping-box"><a href="checkout.php" class="ml-auto btn hvr-hover">Checkout</a> </div>
                     </div>
                 </div>
             </div>
