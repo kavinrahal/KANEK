@@ -25,6 +25,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCartjs/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -135,6 +139,11 @@
                 </div>
                 <h1><a class = "title-all" href="contact-us.php"> Contact Us</a></h1>
                 <h1><a class = "title-all" href="faq.php"> FAQ</a></h1>
+                <div class="cartMap">
+                    <h1><a class = "title-all" href = "cart.php"> Cart</a></h1>
+                    <h2><a class ="title-all" href="checkout.php">&ensp;- Checkout</a></h2>
+                    <h3><a class = "title-all"href = "thankyou.php">&emsp;-- Thank You </a></h3>
+                </div>  
             </div>
         </div>
         
